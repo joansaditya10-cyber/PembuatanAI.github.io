@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Sejarah Lengkap AI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { padding-top: 56px; font-family: 'Segoe UI', sans-serif; background-color: #f8f9fa; }
+        
+        /* Timeline Styling */
+        .timeline-section { position: relative; }
+        .timeline-item { border-left: 3px solid #0d6efd; padding-left: 30px; margin-bottom: 30px; position: relative; }
+        .timeline-item::before {
+            content: ''; position: absolute; left: -10px; top: 0;
+            width: 17px; height: 17px; background-color: #0d6efd; border-radius: 50%;
+        }
+        .year-badge { background-color: #0d6efd; color: white; padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9rem; display: inline-block; margin-bottom: 10px; }
+        
+        /* Profile Card */
+        .pioneer-card { transition: transform 0.3s; border: none; }
+        .pioneer-card:hover { transform: translateY(-10px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+        .pioneer-img { height: 250px; object-fit: cover; object-position: top; }
+
+        footer { background-color: #212529; color: white; padding: 40px 0; margin-top: auto;}
+    </style>
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="Index.html"><i class="fas fa-robot me-2"></i>Genesis AI</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="Index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="About.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-primary text-white py-5 mb-5">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold">Perjalanan Menuju Kecerdasan</h1>
+            <p class="lead">Mengungkap sejarah panjang bagaimana manusia mengajarkan mesin untuk berpikir.</p>
+        </div>
+    </header>
+
+    <section class="container mb-5">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <h2 class="fw-bold mb-3">Apa itu Genesis AI?</h2>
+                <p class="text-secondary">Genesis AI adalah sebuah proyek dokumentasi digital yang bertujuan untuk melestarikan sejarah perkembangan Artificial Intelligence. Kami percaya bahwa untuk memahami masa depan teknologi (seperti ChatGPT atau Mobil Otonom), kita harus memahami akarnya terlebih dahulu.</p>
+                <p>Kami merangkum momen-momen kritis dari era filosofi kuno hingga revolusi Deep Learning modern.</p>
+            </div>
+            <div class="col-lg-6">
+                <div class="p-4 bg-white rounded shadow-sm border-start border-5 border-primary">
+                    <h4 class="fw-bold"><i class="fas fa-bullseye me-2"></i>Misi Kami</h4>
+                    <ul class="list-unstyled mt-3">
+                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Menyediakan literasi sejarah teknologi yang akurat.</li>
+                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Memperkenalkan tokoh-tokoh yang terlupakan.</li>
+                        <li><i class="fas fa-check text-success me-2"></i>Menginspirasi generasi baru inovator.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="container my-5">
+
+    <section class="container mb-5">
+        <h2 class="text-center mb-5 fw-bold text-uppercase ls-2">Garis Waktu Evolusi</h2>
+        <div class="row justify-content-center">
+            <div class="col-lg-8 timeline-section">
+                
+                <div class="timeline-item">
+                    <span class="year-badge">1943 - 1950</span>
+                    <h4 class="fw-bold">Era Gestasi & Neural Network Awal</h4>
+                    <p>Warren McCulloch dan Walter Pitts menerbitkan makalah tentang "Kalkulus Logis" yang menjadi dasar Neural Network. Kemudian, <strong>Alan Turing</strong> memperkenalkan konsep "Turing Test" untuk menguji kecerdasan mesin.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="year-badge">1956</span>
+                    <h4 class="fw-bold">Kelahiran Resmi AI</h4>
+                    <p>Konferensi Dartmouth diadakan. John McCarthy, Marvin Minsky, Nathaniel Rochester, dan Claude Shannon berkumpul. Di sinilah istilah <strong>"Artificial Intelligence"</strong> pertama kali digunakan secara resmi.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="year-badge">1974 - 1980</span>
+                    <h4 class="fw-bold">The AI Winter (Musim Dingin AI)</h4>
+                    <p>Karena ekspektasi yang terlalu tinggi dan hasil yang belum memuaskan, pendanaan untuk riset AI dihentikan secara massal oleh pemerintah AS dan Inggris. Perkembangan melambat drastis.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="year-badge">1997</span>
+                    <h4 class="fw-bold">Manusia vs Mesin: Deep Blue</h4>
+                    <p>Komputer catur IBM, <strong>Deep Blue</strong>, berhasil mengalahkan juara dunia catur Garry Kasparov. Ini menjadi bukti pertama bahwa mesin bisa mengungguli manusia dalam permainan strategi kompleks.</p>
+                </div>
+
+                 <div class="timeline-item">
+                    <span class="year-badge">2010 - Sekarang</span>
+                    <h4 class="fw-bold">Era Deep Learning & Generative AI</h4>
+                    <p>Dengan data besar (Big Data) dan GPU yang kuat, AI berkembang pesat. Munculnya asisten virtual (Siri, Alexa), pengenalan wajah, hingga Generative AI seperti GPT-4 yang mampu membuat teks dan gambar.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">Tokoh Perintis</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card pioneer-card h-100 shadow-sm">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Alan_Turing_Aged_16.jpg" class="card-img-top pioneer-img" alt="Alan Turing">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Alan Turing</h5>
+                            <p class="text-muted small">Bapak Ilmu Komputer</p>
+                            <p class="card-text">Pencipta konsep mesin universal dan pemecah kode Enigma Perang Dunia II.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card pioneer-card h-100 shadow-sm">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/4/49/John_McCarthy_Stanford.jpg" class="card-img-top pioneer-img" alt="John McCarthy">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">John McCarthy</h5>
+                            <p class="text-muted small">Pencipta Istilah AI</p>
+                            <p class="card-text">Mengorganisir konferensi Dartmouth dan menciptakan bahasa pemrograman LISP.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card pioneer-card h-100 shadow-sm">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Ada_Lovelace_portrait.jpg" class="card-img-top pioneer-img" alt="Ada Lovelace">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Ada Lovelace</h5>
+                            <p class="text-muted small">Programmer Pertama</p>
+                            <p class="card-text">Visioner abad ke-19 yang pertama kali menyadari bahwa mesin bisa melakukan lebih dari sekadar hitungan angka.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <footer>
+        <div class="container text-center">
+            <p>© 2026 Joans Adhitya Yuniar. <br><small>2511011700983 01SIFP016.</small></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
